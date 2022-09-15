@@ -1,6 +1,4 @@
-$primary_color : red;
-
-body{
-    background-color: $primary_color;
-}
-
+@import 'vars';
+@import 'header';
+@import 'main';
+@import 'footer';
