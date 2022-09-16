@@ -9,12 +9,14 @@
 
 <div class="container">
     @foreach ($comics as $comic) 
+    <a href="{{route('comic', ['id' => $loop->index] )}}">
         <figure>
             <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
             <figcaption>
                 {{$comic['title']}}
             </figcaption>
         </figure>
+    </a>
     @endforeach
 </div>
 
