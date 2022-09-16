@@ -18,11 +18,14 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+//pagina lista dei fumetti, potrei usare show index? 
 
 Route::get('/comics',function(){
-    return view('comics');
-})->name('comics');
 
+    $comics = config('comics');
+    return view('comics', compact('comics'));
+})->name('comics');
+ 
 Route::get('/contacts',function(){
     return view('contacts');
 })->name('contacts');

@@ -9,23 +9,13 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li><img src="{{asset('images/dc-logo.png')}}" alt=""></li>
-        <li><a href="{{route('comics')}}"><h4>comics</h4></a></li>
-        <li><a href="{{route('contacts')}}">contacts</a></li>
-        <li><a href="{{route('faq')}}">faq</a></li>
-    </ul>
+         @include('includes.header')
     </header>
     <main>
         @yield('main-content')
     </main>
     <footer>
-        <footer>
-            <ul>
-                <li><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor sapiente, porro ducimus earum, quas iusto maxime voluptatem corporis doloremque perferendis nihil. Perferendis dignissimos odio itaque ullam neque repudiandae non.</h5></li>
-                <li><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor sapiente, porro ducimus earum, quas iusto maxime voluptatem corporis doloremque perferendis nihil. Perferendis dignissimos odio itaque ullam neque repudiandae non.</h5></li><li><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor sapiente, porro ducimus earum, quas iusto maxime voluptatem corporis doloremque perferendis nihil. Perferendis dignissimos odio itaque ullam neque repudiandae non.</h5></li>
-            </ul>
-        </footer>
+       <h1>footer</h1>
     </footer>
 </body>
 </html>

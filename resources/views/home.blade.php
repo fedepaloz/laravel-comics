@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
 @section('main-content')
-<img src="{{asset ('images/jumbotron.jpg')}}" alt="">
-<h1>test</h1>
+<h1>contenuto centrale vuoto</h1>
 @endsection
+

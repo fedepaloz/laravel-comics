@@ -1,10 +1,11 @@
 
 @extends('layouts.main')
 
-@section
-
-<h1>contatti</h1>
-<h2> <a href="{{route('home')}}">
+@section('main-content')
+<h1>lista contatti</h1>
+<h3>
+    <a href="{{route('home')}}">torna indietro</a>
+</h3>
 @endsection
 
 

@@ -7,7 +7,7 @@ header li {
   list-style-type: none;
 }
 
-img {
-  -o-object-fit: contain;
-     object-fit: contain;
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }

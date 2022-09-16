@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section
-<h1>faq</h1>
+@section('main-content')
+<h1>lista faq</h1>
 <h3>
-    <a href="{{route('home')}}">torna indrio</a>
+    <a href="{{route('home')}}">torna indietro</a>
 </h3>
 @endsection
